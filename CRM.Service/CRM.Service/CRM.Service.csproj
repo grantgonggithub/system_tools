@@ -20,7 +20,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="SuperGMS" Version="5.1.8" />
+    <PackageReference Include="SuperGMS" Version="5.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRM.Dto\CRM.Dto.csproj" />
+    <ProjectReference Include="..\CRM.Model\CRM.Model.csproj" />
   </ItemGroup>
 
 </Project>
